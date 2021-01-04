@@ -2,6 +2,7 @@
 #include <fstream>
 #include <sstream>
 #include <pthread.h>
+#include "ThreadedSummation.h"
 
 using namespace std;
 
@@ -68,4 +69,3 @@ long CalculateTheSumByUsingThreads(){
     }
     return sum;
 }
-#include "ThreadedSummation.h"
